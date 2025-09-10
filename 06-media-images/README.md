@@ -1,4 +1,4 @@
-# 📸 Chapter 08: HTML Images, Image Maps, Figure & Picture Element
+# 📸 Chapter 06: HTML Images, Image Maps, Figure & Picture Element
 
 ## 📖 Introduction
 
