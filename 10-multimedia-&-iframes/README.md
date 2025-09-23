@@ -63,7 +63,7 @@ An **iframe (inline frame)** is used to display a web page **inside another web 
 * **`loading="lazy"`** → loads iframe only when visible. (performance)
 * **`allowfullscreen`** → allows fullscreen videos.
 * **`sandbox`** → adds restrictions for security.
-* **`referrerpolicy`** → controls privacy.
+
 
 📌 Example with Security:
 
@@ -73,7 +73,6 @@ An **iframe (inline frame)** is used to display a web page **inside another web 
         loading="lazy"
         sandbox
         allowfullscreen
-        referrerpolicy="no-referrer">
 </iframe>
 ```
 
@@ -99,12 +98,12 @@ The `<video>` element is used to **play videos directly in the browser**.
 * **`muted`** → required if autoplay is on.
 * **`loop`** → repeats forever.
 * **`poster="image.jpg"`** → shows a thumbnail before play.
-* **`preload="auto|metadata|none"`** → how video loads before play.
+* **`controlsList ="allowfullscreen""`** → you can add control.
 
 📌 Example with Poster & Autoplay:
 
 ```html
-<video width="400" controls autoplay muted loop poster="thumbnail.jpg" preload="metadata">
+<video width="400" controls autoplay muted loop poster="thumbnail.jpg" >
   <source src="movie.mp4" type="video/mp4">
   <source src="movie.ogg" type="video/ogg">
 </video>
@@ -130,12 +129,12 @@ The `<audio>` element lets us **play sound/music**.
 * **`controls`** → play/pause/volume.
 * **`autoplay`** (with `muted` for modern browsers).
 * **`loop`** → repeat.
-* **`preload`** → same as `<video>`.
+
 
 📌 Example with Preload:
 
 ```html
-<audio controls preload="auto" loop>
+<audio controls loop>
   <source src="lecture.mp3" type="audio/mpeg">
 </audio>
 ```
