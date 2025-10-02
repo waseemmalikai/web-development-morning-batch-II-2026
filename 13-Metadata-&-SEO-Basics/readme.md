@@ -1,4 +1,4 @@
-## 🌐 **Chapter 12 – The HTML `<head>` Section (Metadata & SEO Basics)**
+## 🌐 **Chapter 13 – The HTML `<head>` Section (Metadata & SEO Basics)**
 
 ### 📖 Introduction
 
