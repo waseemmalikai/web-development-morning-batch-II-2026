@@ -1,7 +1,3 @@
-# 📙 Phase 3 – Page Metadata & Document Control
-
----
-
 ## 🌐 **Chapter 12 – The HTML `<head>` Section (Metadata & SEO Basics)**
 
 ### 📖 Introduction
@@ -135,26 +131,3 @@ Just like HR may reject a resume with a missing header, search engines and brows
   <h1>Hello World!</h1>
 </body>
 </html>
-```
-
----
-
-### 🎯 Learning Outcomes
-
-By the end of this chapter, you will:
-
-* Understand the purpose of the **`<head>` section**.
-* Be able to set up **charset, viewport, and metadata**.
-* Add **favicon, author info, SEO tags, and social sharing tags**.
-* Make your website **search-engine & social-media friendly**.
-
----
-
-### 🔮 Next Lecture Preview
-
-Up next: **Chapter 16 – Inline vs Block Elements**.
-We’ll learn how HTML elements behave differently (stacking vs inline), why this matters for **CSS layout**, and how to use them effectively.
-
----
-
----
