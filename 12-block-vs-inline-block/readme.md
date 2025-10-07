@@ -1,4 +1,4 @@
-# 📏 **Chapter 16 – Inline vs Block Elements**
+# 📏 **Chapter 12 – Inline vs Block Elements**
 
 ### 📖 Introduction
 
